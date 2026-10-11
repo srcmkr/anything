@@ -1,0 +1,28 @@
+# /etc/anything/anythingd.toml – what the Anything service indexes.
+# Each user then sees only what they could list themselves, filtered further
+# by their own settings.
+
+# Folders to index. "/" covers every local disk; network drives, virtual
+# file systems (/proc, /sys, …) and FUSE mounts are always left out.
+include = ["/"]
+
+# Folders and names to leave out: a path like "/var/lib/docker", or a name
+# like "node_modules" that is skipped wherever it appears.
+exclude = []
+
+# Leave out the folders programs keep their caches in (~/.cache, the caches
+# of Chrome, Electron apps and Firefox, /var/cache): rebuilt by the programs,
+# hardly ever looked for, and often very busy.
+skip_caches = true
+
+# Leave out node_modules folders: JavaScript dependencies, often hundreds of
+# thousands of files per project.
+skip_node_modules = true
+
+# Live changes are taken in at most every this many seconds; what happens in
+# between is collected into one update. A change after a quiet spell shows
+# up right away.
+batch_secs = 5
+
+# Without live updates (older kernels), check for changes this often.
+reconcile_secs = 120

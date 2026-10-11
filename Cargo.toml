@@ -1,0 +1,28 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+default-members = ["crates/*"]
+exclude = ["vendor/xim-ctext"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/srcmkr/anything"
+rust-version = "1.90"
+
+[workspace.dependencies]
+anything-core = { path = "crates/anything-core" }
+anything-update = { path = "crates/anything-update" }
+hashbrown = "0.16"
+libc = "0.2"
+memchr = "2.7"
+rayon = "1.10"
+
+[profile.release]
+debug = "line-tables-only"
+
+# Typing an umlaut through an X input method (ibus) panicked; see
+# vendor/xim-ctext/README.md.
+[patch.crates-io]
+xim-ctext = { path = "vendor/xim-ctext" }

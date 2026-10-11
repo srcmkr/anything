@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Anything
+GenericName=File Search
+GenericName[de]=Dateisuche
+Comment=Find files by name, instantly
+Comment[de]=Dateien sofort nach Namen finden
+Exec=@APP@ --show
+Icon=anything
+Terminal=false
+Categories=Utility;FileTools;
+Keywords=search;find;files;everything;
+StartupWMClass=anything

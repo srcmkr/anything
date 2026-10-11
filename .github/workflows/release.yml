@@ -1,0 +1,59 @@
+name: release
+
+# Push a tag like v0.2.0 whose number matches Cargo.toml. The release is
+# built, packed as archive, Debian package and AppImage
+# (packaging/build-packages.sh), signed with the key in the secret
+# MINISIGN_SECRET_KEY (see crates/anything-update/examples/release-key.rs) and
+# published as the latest release, which installed copies of Anything then
+# offer as an update.
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    uses: ./.github/workflows/build.yml
+
+  release:
+    needs: test
+    # The oldest supported Ubuntu, so the programs run on as many systems as
+    # possible (glibc).
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Tag matches the version
+        run: |
+          v=$(sed -n 's/^version = "\(.*\)"/\1/p' Cargo.toml | head -1)
+          [ "$GITHUB_REF_NAME" = "v$v" ] || { echo "tag $GITHUB_REF_NAME does not match Cargo.toml version $v"; exit 1; }
+      - name: Release key is there
+        run: test -s packaging/minisign.pub || { echo "packaging/minisign.pub is empty"; exit 1; }
+      - name: System libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxkbcommon-x11-dev libxcb1-dev libwayland-dev libfontconfig-dev
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: swatinem/rust-cache@v2
+      - run: cargo build --locked --release
+      - name: Packages
+        run: packaging/build-packages.sh "${GITHUB_REF_NAME#v}"
+      - name: Sign
+        env:
+          MINISIGN_SECRET_KEY: ${{ secrets.MINISIGN_SECRET_KEY }}
+        run: |
+          for file in dist/*.tar.gz dist/*.deb dist/*.AppImage; do
+            cargo run --locked --release -p anything-update --example sign -- "$file"
+          done
+      - name: Upload as a draft
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" --draft --title "Anything $GITHUB_REF_NAME" --generate-notes dist/*
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release edit "$GITHUB_REF_NAME" --draft=false --latest

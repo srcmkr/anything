@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<!-- Lets Anything's settings manage its system service and updates. Each action runs
+     the installed service program with one fixed argument; an administrator
+     password is asked for every time (kept for a few minutes). -->
+<policyconfig>
+  <vendor>Anything</vendor>
+  <vendor_url>https://github.com/srcmkr/anything</vendor_url>
+  <icon_name>system-search</icon_name>
+
+  <action id="io.github.srcmkr.anything.install">
+    <description>Install or update the Anything search service</description>
+    <description xml:lang="de">Anything-Suchdienst installieren oder aktualisieren</description>
+    <message>Anything wants to install its search service.</message>
+    <message xml:lang="de">Anything möchte den Suchdienst installieren.</message>
+    <defaults><allow_any>auth_admin</allow_any><allow_inactive>auth_admin</allow_inactive><allow_active>auth_admin_keep</allow_active></defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@SERVICE@</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">--install</annotate>
+  </action>
+
+  <action id="io.github.srcmkr.anything.uninstall">
+    <description>Remove the Anything search service</description>
+    <description xml:lang="de">Anything-Suchdienst entfernen</description>
+    <message>Anything wants to remove its search service.</message>
+    <message xml:lang="de">Anything möchte den Suchdienst entfernen.</message>
+    <defaults><allow_any>auth_admin</allow_any><allow_inactive>auth_admin</allow_inactive><allow_active>auth_admin_keep</allow_active></defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@SERVICE@</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">--uninstall</annotate>
+  </action>
+
+  <action id="io.github.srcmkr.anything.start">
+    <description>Start the Anything search service</description>
+    <description xml:lang="de">Anything-Suchdienst starten</description>
+    <message>Anything wants to start its search service.</message>
+    <message xml:lang="de">Anything möchte den Suchdienst starten.</message>
+    <defaults><allow_any>auth_admin</allow_any><allow_inactive>auth_admin</allow_inactive><allow_active>auth_admin_keep</allow_active></defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@SERVICE@</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">--start</annotate>
+  </action>
+
+  <action id="io.github.srcmkr.anything.stop">
+    <description>Stop the Anything search service</description>
+    <description xml:lang="de">Anything-Suchdienst stoppen</description>
+    <message>Anything wants to stop its search service.</message>
+    <message xml:lang="de">Anything möchte den Suchdienst stoppen.</message>
+    <defaults><allow_any>auth_admin</allow_any><allow_inactive>auth_admin</allow_inactive><allow_active>auth_admin_keep</allow_active></defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@SERVICE@</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">--stop</annotate>
+  </action>
+
+  <action id="io.github.srcmkr.anything.restart">
+    <description>Restart the Anything search service</description>
+    <description xml:lang="de">Anything-Suchdienst neu starten</description>
+    <message>Anything wants to restart its search service.</message>
+    <message xml:lang="de">Anything möchte den Suchdienst neu starten.</message>
+    <defaults><allow_any>auth_admin</allow_any><allow_inactive>auth_admin</allow_inactive><allow_active>auth_admin_keep</allow_active></defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@SERVICE@</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">--restart</annotate>
+  </action>
+  <action id="io.github.srcmkr.anything.update">
+    <description>Update Anything to the latest release</description>
+    <description xml:lang="de">Anything auf die neueste Version aktualisieren</description>
+    <message>Anything wants to install its latest version.</message>
+    <message xml:lang="de">Anything möchte die neueste Version installieren.</message>
+    <defaults><allow_any>auth_admin</allow_any><allow_inactive>auth_admin</allow_inactive><allow_active>auth_admin_keep</allow_active></defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@SERVICE@</annotate>
+    <annotate key="org.freedesktop.policykit.exec.argv1">--update</annotate>
+  </action>
+
+</policyconfig>

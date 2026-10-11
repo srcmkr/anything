@@ -1,0 +1,36 @@
+[package]
+name = "anything-gui"
+description = "Desktop front end for Anything"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "anything"
+path = "src/main.rs"
+
+[dependencies]
+anything-core.workspace = true
+anything-update.workspace = true
+anything-proto = { path = "../anything-proto" }
+async-channel = "2"
+chrono = "0.4"
+gpui = { package = "gpui-pre", version = "=0.3.8" }
+gpui-base = "=0.7.1"
+gpui-component = "=0.7.1"
+gpui-kit-assets = "=0.7.1"
+image = { version = "0.25", default-features = false, features = ["bmp", "gif", "jpeg", "png", "tiff", "webp"] }
+md-5 = "0.10"
+gpui_platform = { package = "gpui-pre-platform", version = "=0.3.8", features = ["x11", "wayland"] }
+trash = { version = "5", default-features = false }
+zbus = { version = "5", default-features = false, features = ["blocking-api", "async-io"] }
+ksni = { version = "0.3.6", default-features = false, features = ["blocking", "async-io"] }
+x11rb = "0.13"
+raw-window-handle = "0.6"
+resvg = "0.45"
+rust-i18n = "4"
+sys-locale = "0.3"
+serde = { version = "1", features = ["derive"] }
+toml = "0.9"

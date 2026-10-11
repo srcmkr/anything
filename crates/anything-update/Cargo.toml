@@ -1,0 +1,18 @@
+[package]
+name = "anything-update"
+description = "Finds, checks and unpacks new Anything releases"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+flate2 = "1"
+minisign-verify = "0.3"
+serde_json = "1"
+tar = "0.4"
+ureq = "3"
+
+[dev-dependencies]
+minisign = "0.10"

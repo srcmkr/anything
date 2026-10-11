@@ -1,0 +1,12 @@
+[package]
+name = "any"
+description = "Search the Anything service from the command line"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anything-core.workspace = true
+anything-proto = { path = "../anything-proto" }

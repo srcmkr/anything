@@ -1,0 +1,10 @@
+[package]
+name = "anything-proto"
+description = "Messages between the Anything service and its clients"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]

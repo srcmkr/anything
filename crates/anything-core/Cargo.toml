@@ -1,0 +1,14 @@
+[package]
+name = "anything-core"
+description = "In-memory file name index and search for Anything"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+hashbrown.workspace = true
+libc.workspace = true
+memchr.workspace = true
+rayon.workspace = true

@@ -1,0 +1,1241 @@
+_version: 2
+search.placeholder:
+  en: Search files
+  de: Dateien suchen
+  es: "Buscar archivos"
+  fr: "Rechercher des fichiers"
+  pt-BR: "Pesquisar arquivos"
+  ru: "Поиск файлов"
+  zh-CN: "搜索文件"
+column.name:
+  en: Name
+  de: Name
+  es: "Nombre"
+  fr: "Nom"
+  pt-BR: "Nome"
+  ru: "Имя"
+  zh-CN: "名称"
+column.path:
+  en: Path
+  de: Pfad
+  es: "Ruta"
+  fr: "Chemin"
+  pt-BR: "Caminho"
+  ru: "Путь"
+  zh-CN: "路径"
+column.size:
+  en: Size
+  de: Größe
+  es: "Tamaño"
+  fr: "Taille"
+  pt-BR: "Tamanho"
+  ru: "Размер"
+  zh-CN: "大小"
+column.modified:
+  en: Date Modified
+  de: Geändert
+  es: "Modificado"
+  fr: "Modifié"
+  pt-BR: "Modificado"
+  ru: "Изменено"
+  zh-CN: "修改时间"
+status.objects:
+  en: "%{count} objects · %{ms} ms"
+  de: "%{count} Objekte · %{ms} ms"
+  es: "%{count} objetos · %{ms} ms"
+  fr: "%{count} objets · %{ms} ms"
+  pt-BR: "%{count} objetos · %{ms} ms"
+  ru: "Объектов: %{count} · %{ms} мс"
+  zh-CN: "%{count} 个对象 · %{ms} 毫秒"
+status.applying_scope:
+  en: Applying scan settings…
+  de: Scan-Einstellungen werden angewendet…
+  es: "Aplicando la configuración de escaneo…"
+  fr: "Application des paramètres d’analyse…"
+  pt-BR: "Aplicando as configurações de varredura…"
+  ru: "Применяются настройки сканирования…"
+  zh-CN: "正在应用扫描设置…"
+tooltip.list:
+  en: List (Ctrl+1)
+  de: Liste (Strg+1)
+  es: "Lista (Ctrl+1)"
+  fr: "Liste (Ctrl+1)"
+  pt-BR: "Lista (Ctrl+1)"
+  ru: "Список (Ctrl+1)"
+  zh-CN: "列表 (Ctrl+1)"
+tooltip.grid:
+  en: Grid with previews (Ctrl+2)
+  de: Raster mit Vorschau (Strg+2)
+  es: "Cuadrícula con vistas previas (Ctrl+2)"
+  fr: "Grille avec aperçus (Ctrl+2)"
+  pt-BR: "Grade com miniaturas (Ctrl+2)"
+  ru: "Сетка с миниатюрами (Ctrl+2)"
+  zh-CN: "带预览的网格 (Ctrl+2)"
+tooltip.settings:
+  en: Settings (Ctrl+,)
+  de: Einstellungen (Strg+,)
+  es: "Configuración (Ctrl+,)"
+  fr: "Paramètres (Ctrl+,)"
+  pt-BR: "Configurações (Ctrl+,)"
+  ru: "Настройки (Ctrl+,)"
+  zh-CN: "设置 (Ctrl+,)"
+menu.open:
+  en: Open
+  de: Öffnen
+  es: "Abrir"
+  fr: "Ouvrir"
+  pt-BR: "Abrir"
+  ru: "Открыть"
+  zh-CN: "打开"
+menu.reveal:
+  en: "Show in Folder"
+  de: "Im Ordner anzeigen"
+  es: "Mostrar en la carpeta"
+  fr: "Afficher dans le dossier"
+  pt-BR: "Mostrar na pasta"
+  ru: "Показать в папке"
+  zh-CN: "在文件夹中显示"
+menu.copy_path:
+  en: "Path"
+  de: "Pfad"
+  es: "Ruta"
+  fr: "Chemin"
+  pt-BR: "Caminho"
+  ru: "Путь"
+  zh-CN: "路径"
+menu.copy_name:
+  en: "Name"
+  de: "Name"
+  es: "Nombre"
+  fr: "Nom"
+  pt-BR: "Nome"
+  ru: "Имя"
+  zh-CN: "名称"
+note.demo_only:
+  en: Only in the demo data
+  de: Nur in den Demo-Daten
+  es: "Solo en los datos de demostración"
+  fr: "Uniquement dans les données de démonstration"
+  pt-BR: "Somente nos dados de demonstração"
+  ru: "Только в демонстрационных данных"
+  zh-CN: "仅在演示数据中"
+note.path_copied:
+  en: Path copied
+  de: Pfad kopiert
+  es: "Ruta copiada"
+  fr: "Chemin copié"
+  pt-BR: "Caminho copiado"
+  ru: "Путь скопирован"
+  zh-CN: "已复制路径"
+note.name_copied:
+  en: Name copied
+  de: Name kopiert
+  es: "Nombre copiado"
+  fr: "Nom copié"
+  pt-BR: "Nome copiado"
+  ru: "Имя скопировано"
+  zh-CN: "已复制名称"
+tray.show:
+  en: Show Anything
+  de: Anything anzeigen
+  es: "Mostrar Anything"
+  fr: "Afficher Anything"
+  pt-BR: "Mostrar o Anything"
+  ru: "Показать Anything"
+  zh-CN: "显示 Anything"
+tray.settings:
+  en: Settings…
+  de: Einstellungen…
+  es: "Configuración…"
+  fr: "Paramètres…"
+  pt-BR: "Configurações…"
+  ru: "Настройки…"
+  zh-CN: "设置…"
+tray.quit:
+  en: Quit
+  de: Beenden
+  es: "Salir"
+  fr: "Quitter"
+  pt-BR: "Sair"
+  ru: "Выход"
+  zh-CN: "退出"
+settings.title:
+  en: Anything Settings
+  de: Anything – Einstellungen
+  es: "Configuración de Anything"
+  fr: "Paramètres d’Anything"
+  pt-BR: "Configurações do Anything"
+  ru: "Настройки Anything"
+  zh-CN: "Anything 设置"
+settings.page.general:
+  en: General
+  de: Allgemein
+  es: "General"
+  fr: "Général"
+  pt-BR: "Geral"
+  ru: "Общие"
+  zh-CN: "常规"
+settings.page.scan:
+  en: Scan
+  de: Scan
+  es: "Escaneo"
+  fr: "Analyse"
+  pt-BR: "Varredura"
+  ru: "Сканирование"
+  zh-CN: "扫描"
+settings.page.folders:
+  en: "Storage"
+  de: "Speicherorte"
+  es: "Almacenamiento"
+  fr: "Stockage"
+  pt-BR: "Armazenamento"
+  ru: "Хранение"
+  zh-CN: "存储位置"
+settings.appearance:
+  en: Appearance
+  de: Farbschema
+  es: "Tema"
+  fr: "Thème"
+  pt-BR: "Tema"
+  ru: "Тема оформления"
+  zh-CN: "主题"
+settings.appearance.desc:
+  en: System follows the light or dark setting of your desktop.
+  de: „System“ folgt der hellen oder dunklen Einstellung deines Desktops.
+  es: "«Sistema» sigue la configuración clara u oscura de tu escritorio."
+  fr: "« Système » suit le réglage clair ou sombre de votre bureau."
+  pt-BR: "“Sistema” segue a configuração clara ou escura da sua área de trabalho."
+  ru: "«Как в системе» — светлая или тёмная, как настроено на рабочем столе."
+  zh-CN: "“跟随系统”会跟随桌面的浅色或深色设置。"
+appearance.system:
+  en: System
+  de: System
+  es: "Sistema"
+  fr: "Système"
+  pt-BR: "Sistema"
+  ru: "Как в системе"
+  zh-CN: "跟随系统"
+appearance.light:
+  en: Light
+  de: Hell
+  es: "Claro"
+  fr: "Clair"
+  pt-BR: "Claro"
+  ru: "Светлая"
+  zh-CN: "浅色"
+appearance.dark:
+  en: Dark
+  de: Dunkel
+  es: "Oscuro"
+  fr: "Sombre"
+  pt-BR: "Escuro"
+  ru: "Тёмная"
+  zh-CN: "深色"
+settings.language:
+  en: Language
+  de: Sprache
+  es: "Idioma"
+  fr: "Langue"
+  pt-BR: "Idioma"
+  ru: "Язык"
+  zh-CN: "语言"
+settings.language.desc:
+  en: System uses the language of your desktop.
+  de: „System“ verwendet die Sprache deines Desktops.
+  es: "«Sistema» usa el idioma de tu escritorio."
+  fr: "« Système » utilise la langue de votre bureau."
+  pt-BR: "“Sistema” usa o idioma da sua área de trabalho."
+  ru: "«Как в системе» — язык рабочего стола."
+  zh-CN: "“跟随系统”使用桌面的语言。"
+language.system:
+  en: System
+  de: System
+  es: "Sistema"
+  fr: "Système"
+  pt-BR: "Sistema"
+  ru: "Как в системе"
+  zh-CN: "跟随系统"
+settings.autostart:
+  en: Start with the desktop
+  de: Mit dem Desktop starten
+  es: "Iniciar con el escritorio"
+  fr: "Lancer avec le bureau"
+  pt-BR: "Iniciar com a área de trabalho"
+  ru: "Запускать вместе с рабочим столом"
+  zh-CN: "随桌面启动"
+settings.autostart.desc:
+  en: Anything waits in the tray, ready the moment you click it.
+  de: Anything wartet im Tray und ist beim ersten Klick sofort da.
+  es: "Anything espera en la bandeja del sistema, listo en cuanto haces clic."
+  fr: "Anything attend dans la zone de notification, prêt dès le premier clic."
+  pt-BR: "O Anything aguarda na bandeja do sistema, pronto assim que você clicar."
+  ru: "Anything ждёт в системном трее и открывается сразу по щелчку."
+  zh-CN: "Anything 在系统托盘中待命，点击即可立即使用。"
+settings.include:
+  en: Included folders
+  de: Einbezogene Ordner
+  es: "Carpetas incluidas"
+  fr: "Dossiers inclus"
+  pt-BR: "Pastas incluídas"
+  ru: "Включённые папки"
+  zh-CN: "包含的文件夹"
+settings.include.desc:
+  en: The scan covers these folders and everything below them. ~ stands for your home folder.
+  de: Der Scan erfasst diese Ordner und alles darunter. ~ steht für deinen Home-Ordner.
+  es: "El escaneo abarca estas carpetas y todo lo que contienen. ~ representa tu carpeta personal."
+  fr: "L’analyse couvre ces dossiers et tout leur contenu. ~ désigne votre dossier personnel."
+  pt-BR: "A varredura abrange estas pastas e tudo dentro delas. ~ representa sua pasta pessoal."
+  ru: "Сканируются эти папки и всё их содержимое. ~ означает домашнюю папку."
+  zh-CN: "扫描这些文件夹及其中的全部内容。~ 代表你的主文件夹。"
+settings.include.empty:
+  en: Nothing is included, so nothing will be found.
+  de: Nichts ist einbezogen, also wird nichts gefunden.
+  es: "No hay nada incluido, así que no se encontrará nada."
+  fr: "Rien n’est inclus, donc rien ne sera trouvé."
+  pt-BR: "Nada está incluído, então nada será encontrado."
+  ru: "Ничего не включено, поэтому ничего не будет найдено."
+  zh-CN: "未包含任何文件夹，因此找不到任何内容。"
+settings.include.missing:
+  en: This folder does not exist.
+  de: Diesen Ordner gibt es nicht.
+  es: "Esta carpeta no existe."
+  fr: "Ce dossier n’existe pas."
+  pt-BR: "Esta pasta não existe."
+  ru: "Этой папки не существует."
+  zh-CN: "此文件夹不存在。"
+settings.exclude:
+  en: Excluded folders
+  de: Ausgeschlossene Ordner
+  es: "Carpetas excluidas"
+  fr: "Dossiers exclus"
+  pt-BR: "Pastas excluídas"
+  ru: "Исключённые папки"
+  zh-CN: "排除的文件夹"
+settings.exclude.desc:
+  en: A path like /home/* skips every folder directly in /home. A name like node_modules or *.tmp is skipped wherever it appears. System folders such as /proc are always skipped.
+  de: Ein Pfad wie /home/* lässt jeden Ordner direkt in /home aus. Ein Name wie node_modules oder *.tmp wird überall ausgelassen. Systemordner wie /proc werden immer ausgelassen.
+  es: "Una ruta como /home/* omite todas las carpetas que están directamente en /home. Un nombre como node_modules o *.tmp se omite dondequiera que aparezca. Las carpetas del sistema como /proc se omiten siempre."
+  fr: "Un chemin comme /home/* ignore chaque dossier situé directement dans /home. Un nom comme node_modules ou *.tmp est ignoré partout où il apparaît. Les dossiers système comme /proc sont toujours ignorés."
+  pt-BR: "Um caminho como /home/* ignora todas as pastas diretamente em /home. Um nome como node_modules ou *.tmp é ignorado onde quer que apareça. Pastas do sistema como /proc são sempre ignoradas."
+  ru: "Путь вида /home/* пропускает все папки непосредственно в /home. Имя вроде node_modules или *.tmp пропускается везде, где встречается. Системные папки, например /proc, пропускаются всегда."
+  zh-CN: "像 /home/* 这样的路径会跳过 /home 下的每个直接子文件夹。像 node_modules 或 *.tmp 这样的名称无论出现在哪里都会被跳过。/proc 等系统文件夹始终会被跳过。"
+settings.exclude.outside:
+  en: Outside the included folders, so it has no effect.
+  de: Liegt außerhalb der einbezogenen Ordner und wirkt daher nicht.
+  es: "Está fuera de las carpetas incluidas, así que no tiene efecto."
+  fr: "En dehors des dossiers inclus, donc sans effet."
+  pt-BR: "Fora das pastas incluídas, por isso não tem efeito."
+  ru: "Находится вне включённых папок, поэтому не действует."
+  zh-CN: "位于包含的文件夹之外，因此不起作用。"
+settings.exclude.placeholder:
+  en: /home/* or node_modules
+  de: /home/* oder node_modules
+  es: "/home/* o node_modules"
+  fr: "/home/* ou node_modules"
+  pt-BR: "/home/* ou node_modules"
+  ru: "/home/* или node_modules"
+  zh-CN: "/home/* 或 node_modules"
+settings.database:
+  en: Database folder
+  de: Datenbank-Ordner
+  es: "Carpeta de la base de datos"
+  fr: "Dossier de la base de données"
+  pt-BR: "Pasta do banco de dados"
+  ru: "Папка базы данных"
+  zh-CN: "数据库文件夹"
+settings.database.desc:
+  en: Where the index is stored.
+  de: Hier wird der Index gespeichert.
+  es: "Aquí se guarda el índice."
+  fr: "Emplacement où l’index est enregistré."
+  pt-BR: "Onde o índice é armazenado."
+  ru: "Здесь хранится индекс."
+  zh-CN: "索引的存储位置。"
+settings.thumbnails:
+  en: Thumbnail folder
+  de: Vorschau-Ordner
+  es: "Carpeta de miniaturas"
+  fr: "Dossier des miniatures"
+  pt-BR: "Pasta de miniaturas"
+  ru: "Папка миниатюр"
+  zh-CN: "缩略图文件夹"
+settings.thumbnails.desc:
+  en: Previews are read from and written to this folder only.
+  de: Vorschaubilder werden nur aus diesem Ordner gelesen und nur hier gespeichert.
+  es: "Las miniaturas solo se leen de esta carpeta y solo se guardan en ella."
+  fr: "Les miniatures sont lues et enregistrées uniquement dans ce dossier."
+  pt-BR: "As miniaturas são lidas e gravadas somente nesta pasta."
+  ru: "Миниатюры читаются и сохраняются только в этой папке."
+  zh-CN: "缩略图只从此文件夹读取，也只保存到此文件夹。"
+button.add:
+  en: Add
+  de: Hinzufügen
+  es: "Añadir"
+  fr: "Ajouter"
+  pt-BR: "Adicionar"
+  ru: "Добавить"
+  zh-CN: "添加"
+button.add_folder:
+  en: Add folder…
+  de: Ordner hinzufügen…
+  es: "Añadir carpeta…"
+  fr: "Ajouter un dossier…"
+  pt-BR: "Adicionar pasta…"
+  ru: "Добавить папку…"
+  zh-CN: "添加文件夹…"
+button.choose:
+  en: Choose…
+  de: Auswählen…
+  es: "Elegir…"
+  fr: "Choisir…"
+  pt-BR: "Escolher…"
+  ru: "Выбрать…"
+  zh-CN: "选择…"
+button.remove:
+  en: Remove
+  de: Entfernen
+  es: "Quitar"
+  fr: "Retirer"
+  pt-BR: "Remover"
+  ru: "Удалить"
+  zh-CN: "移除"
+dialog.include:
+  en: Include in scan
+  de: In den Scan aufnehmen
+  es: "Incluir en el escaneo"
+  fr: "Inclure dans l’analyse"
+  pt-BR: "Incluir na varredura"
+  ru: "Включить в сканирование"
+  zh-CN: "加入扫描"
+dialog.exclude:
+  en: Exclude from scan
+  de: Vom Scan ausschließen
+  es: "Excluir del escaneo"
+  fr: "Exclure de l’analyse"
+  pt-BR: "Excluir da varredura"
+  ru: "Исключить из сканирования"
+  zh-CN: "从扫描中排除"
+status.loading:
+  en: Loading index…
+  de: Index wird geladen…
+  es: "Cargando el índice…"
+  fr: "Chargement de l’index…"
+  pt-BR: "Carregando o índice…"
+  ru: "Загрузка индекса…"
+  zh-CN: "正在加载索引…"
+status.scanning:
+  en: "Scanning… %{count} entries"
+  de: "Scanne… %{count} Einträge"
+  es: "Escaneando… %{count} entradas"
+  fr: "Analyse… %{count} entrées"
+  pt-BR: "Varrendo… %{count} entradas"
+  ru: "Сканирование… записей: %{count}"
+  zh-CN: "正在扫描… %{count} 个条目"
+settings.rescan:
+  en: Rescan
+  de: Neu scannen
+  es: "Volver a escanear"
+  fr: "Réanalyser"
+  pt-BR: "Nova varredura"
+  ru: "Повторное сканирование"
+  zh-CN: "重新扫描"
+settings.rescan.desc:
+  en: Reads all included folders again. Changing the rules above starts a new scan by itself.
+  de: Liest alle einbezogenen Ordner neu ein. Bei geänderten Regeln passiert das von selbst.
+  es: "Vuelve a leer todas las carpetas incluidas. Si cambias las reglas de arriba, esto ocurre solo."
+  fr: "Relit tous les dossiers inclus. Modifier les règles ci-dessus lance automatiquement une nouvelle analyse."
+  pt-BR: "Lê novamente todas as pastas incluídas. Alterar as regras acima inicia uma nova varredura automaticamente."
+  ru: "Заново читает все включённые папки. При изменении правил выше это происходит автоматически."
+  zh-CN: "重新读取所有包含的文件夹。更改上方的规则会自动开始新的扫描。"
+button.rescan:
+  en: Rescan now
+  de: Jetzt neu scannen
+  es: "Escanear ahora"
+  fr: "Réanalyser maintenant"
+  pt-BR: "Fazer varredura agora"
+  ru: "Сканировать сейчас"
+  zh-CN: "立即重新扫描"
+settings.page.previews:
+  en: Previews
+  de: Vorschau
+  es: "Vistas previas"
+  fr: "Aperçus"
+  pt-BR: "Miniaturas"
+  ru: "Миниатюры"
+  zh-CN: "预览"
+settings.previews:
+  en: Show previews
+  de: Vorschaubilder anzeigen
+  es: "Mostrar vistas previas"
+  fr: "Afficher les aperçus"
+  pt-BR: "Mostrar miniaturas"
+  ru: "Показывать миниатюры"
+  zh-CN: "显示预览"
+settings.previews.desc:
+  en: Pictures, videos, PDFs and more get a preview in the grid. Previews are made only for what you look at.
+  de: Bilder, Videos, PDFs und mehr bekommen im Raster eine Vorschau. Sie entstehen nur für das, was du dir ansiehst.
+  es: "Imágenes, videos, PDF y más tienen una vista previa en la cuadrícula. Solo se crean para lo que estás viendo."
+  fr: "Les images, vidéos, PDF et autres ont un aperçu dans la grille. Les aperçus ne sont créés que pour ce que vous regardez."
+  pt-BR: "Imagens, vídeos, PDFs e mais ganham uma miniatura na grade. As miniaturas são criadas apenas para o que você está vendo."
+  ru: "Изображения, видео, PDF и другие файлы получают миниатюру в сетке. Миниатюры создаются только для того, что вы просматриваете."
+  zh-CN: "图片、视频、PDF 等文件会在网格中显示预览。只为你正在查看的内容生成预览。"
+settings.clear_previews:
+  en: Preview cache
+  de: Vorschau-Speicher
+  es: "Caché de vistas previas"
+  fr: "Cache des aperçus"
+  pt-BR: "Cache de miniaturas"
+  ru: "Кэш миниатюр"
+  zh-CN: "预览缓存"
+settings.clear_previews.desc:
+  en: Deletes all previews Anything has made. They are made again when needed.
+  de: Löscht alle Vorschaubilder, die Anything erstellt hat. Sie entstehen bei Bedarf neu.
+  es: "Elimina todas las vistas previas creadas por Anything. Se vuelven a crear cuando hacen falta."
+  fr: "Supprime tous les aperçus créés par Anything. Ils sont recréés si nécessaire."
+  pt-BR: "Exclui todas as miniaturas criadas pelo Anything. Elas são criadas novamente quando necessário."
+  ru: "Удаляет все миниатюры, созданные Anything. При необходимости они будут созданы заново."
+  zh-CN: "删除 Anything 生成的所有预览。需要时会重新生成。"
+button.clear_previews:
+  en: Clear
+  de: Leeren
+  es: "Vaciar"
+  fr: "Vider"
+  pt-BR: "Limpar"
+  ru: "Очистить"
+  zh-CN: "清除"
+status.unreachable:
+  en: The Anything service does not answer; trying again…
+  de: Der Anything-Dienst antwortet nicht; neuer Versuch läuft…
+  es: "El servicio de Anything no responde; reintentando…"
+  fr: "Le service Anything ne répond pas ; nouvelle tentative…"
+  pt-BR: "O serviço do Anything não responde; tentando novamente…"
+  ru: "Служба Anything не отвечает; повторная попытка…"
+  zh-CN: "Anything 服务没有响应，正在重试…"
+service.page:
+  en: Service
+  de: Dienst
+  es: "Servicio"
+  fr: "Service"
+  pt-BR: "Serviço"
+  ru: "Служба"
+  zh-CN: "服务"
+service.title:
+  en: Search service
+  de: Suchdienst
+  es: "Servicio de búsqueda"
+  fr: "Service de recherche"
+  pt-BR: "Serviço de pesquisa"
+  ru: "Служба поиска"
+  zh-CN: "搜索服务"
+service.desc:
+  en: "Indexes every local disk as root and keeps the index current live. Each user sees only what they could open themselves. Without it, Anything indexes just the folders under “Scan”."
+  de: "Indiziert alle lokalen Laufwerke mit Root-Rechten und hält den Index live aktuell. Jeder Benutzer sieht nur, was er selbst öffnen darf. Ohne den Dienst durchsucht Anything nur die Ordner unter „Scan“."
+  es: "Indexa todos los discos locales como root y mantiene el índice actualizado en tiempo real. Cada usuario solo ve lo que puede abrir por sí mismo. Sin él, Anything solo indexa las carpetas de «Escaneo»."
+  fr: "Indexe tous les disques locaux en tant que root et tient l’index à jour en temps réel. Chaque utilisateur ne voit que ce qu’il peut ouvrir lui-même. Sans lui, Anything n’indexe que les dossiers indiqués sous « Analyse »."
+  pt-BR: "Indexa todos os discos locais como root e mantém o índice atualizado em tempo real. Cada usuário vê apenas o que ele mesmo pode abrir. Sem ele, o Anything indexa apenas as pastas em “Varredura”."
+  ru: "Индексирует все локальные диски с правами root и обновляет индекс в реальном времени. Каждый пользователь видит только то, что может открыть сам. Без службы Anything индексирует только папки из раздела «Сканирование»."
+  zh-CN: "以 root 身份索引所有本地磁盘，并实时更新索引。每个用户只能看到自己有权打开的内容。没有此服务时，Anything 只索引“扫描”中设置的文件夹。"
+service.reading:
+  en: Checking…
+  de: Wird geprüft…
+  es: "Comprobando…"
+  fr: "Vérification…"
+  pt-BR: "Verificando…"
+  ru: "Проверка…"
+  zh-CN: "正在检查…"
+service.state.not_installed:
+  en: Not installed – Anything searches only your own files.
+  de: Nicht installiert – Anything durchsucht nur deine eigenen Dateien.
+  es: "No instalado – Anything solo busca en tus propios archivos."
+  fr: "Non installé – Anything ne cherche que dans vos propres fichiers."
+  pt-BR: "Não instalado – o Anything pesquisa apenas os seus próprios arquivos."
+  ru: "Не установлена — Anything ищет только в ваших файлах."
+  zh-CN: "未安装 – Anything 只搜索你自己的文件。"
+service.state.off:
+  en: Installed, switched off.
+  de: Installiert, ausgeschaltet.
+  es: "Instalado, desactivado."
+  fr: "Installé, désactivé."
+  pt-BR: "Instalado, desativado."
+  ru: "Установлена, выключена."
+  zh-CN: "已安装，已关闭。"
+service.state.starting:
+  en: Starting…
+  de: Startet…
+  es: "Iniciando…"
+  fr: "Démarrage…"
+  pt-BR: "Iniciando…"
+  ru: "Запуск…"
+  zh-CN: "正在启动…"
+service.state.stopping:
+  en: Stopping…
+  de: Wird beendet…
+  es: "Deteniendo…"
+  fr: "Arrêt…"
+  pt-BR: "Parando…"
+  ru: "Остановка…"
+  zh-CN: "正在停止…"
+service.state.loading:
+  en: Running – loading the index…
+  de: Läuft – lädt den Index…
+  es: "En ejecución – cargando el índice…"
+  fr: "En cours – chargement de l’index…"
+  pt-BR: "Em execução – carregando o índice…"
+  ru: "Работает — загрузка индекса…"
+  zh-CN: "运行中 – 正在加载索引…"
+service.state.scanning:
+  en: "Running – scanning, %{count} entries so far…"
+  de: "Läuft – scannt, bisher %{count} Einträge…"
+  es: "En ejecución – escaneando, %{count} entradas por ahora…"
+  fr: "En cours – analyse, %{count} entrées jusqu’ici…"
+  pt-BR: "Em execução – varrendo, %{count} entradas até agora…"
+  ru: "Работает — сканирование, записей пока: %{count}…"
+  zh-CN: "运行中 – 正在扫描，已有 %{count} 个条目…"
+service.state.running:
+  en: "Running – %{count} entries"
+  de: "Läuft – %{count} Einträge"
+  es: "En ejecución – %{count} entradas"
+  fr: "En cours – %{count} entrées"
+  pt-BR: "Em execução – %{count} entradas"
+  ru: "Работает — записей: %{count}"
+  zh-CN: "运行中 – %{count} 个条目"
+service.state.failed:
+  en: "Failed to run – details: journalctl -u anythingd"
+  de: "Fehlgeschlagen – Details: journalctl -u anythingd"
+  es: "No se pudo ejecutar – detalles: journalctl -u anythingd"
+  fr: "Échec – détails : journalctl -u anythingd"
+  pt-BR: "Falha na execução – detalhes: journalctl -u anythingd"
+  ru: "Ошибка запуска — подробности: journalctl -u anythingd"
+  zh-CN: "运行失败 – 详情：journalctl -u anythingd"
+service.state.manual:
+  en: "Running, started by hand – %{count} entries"
+  de: "Läuft, von Hand gestartet – %{count} Einträge"
+  es: "En ejecución, iniciado a mano – %{count} entradas"
+  fr: "En cours, lancé manuellement – %{count} entrées"
+  pt-BR: "Em execução, iniciado manualmente – %{count} entradas"
+  ru: "Работает, запущена вручную — записей: %{count}"
+  zh-CN: "运行中，手动启动 – %{count} 个条目"
+service.manual_hint:
+  en: To install the service, first stop the one started by hand.
+  de: Zum Installieren zuerst den von Hand gestarteten Dienst beenden.
+  es: "Para instalar el servicio, detén primero el que se inició a mano."
+  fr: "Pour installer le service, arrêtez d’abord celui lancé manuellement."
+  pt-BR: "Para instalar o serviço, primeiro pare o que foi iniciado manualmente."
+  ru: "Чтобы установить службу, сначала остановите запущенную вручную."
+  zh-CN: "要安装服务，请先停止手动启动的服务。"
+service.outdated:
+  en: This Anything comes with a different version of the service.
+  de: Diese Anything-Version bringt eine andere Fassung des Dienstes mit.
+  es: "Esta versión de Anything incluye otra versión del servicio."
+  fr: "Cette version d’Anything fournit une autre version du service."
+  pt-BR: "Esta versão do Anything traz outra versão do serviço."
+  ru: "Эта версия Anything поставляется с другой версией службы."
+  zh-CN: "此版本的 Anything 自带另一个版本的服务。"
+service.missing:
+  en: The program anythingd is not next to Anything.
+  de: Das Programm anythingd liegt nicht neben Anything.
+  es: "El programa anythingd no está junto a Anything."
+  fr: "Le programme anythingd ne se trouve pas à côté d’Anything."
+  pt-BR: "O programa anythingd não está junto do Anything."
+  ru: "Программа anythingd не найдена рядом с Anything."
+  zh-CN: "Anything 旁边没有 anythingd 程序。"
+service.busy:
+  en: Please wait…
+  de: Bitte warten…
+  es: "Espera, por favor…"
+  fr: "Veuillez patienter…"
+  pt-BR: "Aguarde…"
+  ru: "Подождите…"
+  zh-CN: "请稍候…"
+service.refused:
+  en: Not allowed, or wrong password.
+  de: Nicht berechtigt oder falsches Passwort.
+  es: "No autorizado o contraseña incorrecta."
+  fr: "Non autorisé ou mot de passe incorrect."
+  pt-BR: "Não autorizado ou senha incorreta."
+  ru: "Нет прав или неверный пароль."
+  zh-CN: "未获授权或密码错误。"
+service.no_prompt:
+  en: "No password prompt is available here. Run this in a terminal:"
+  de: "Hier lässt sich kein Passwort abfragen. Bitte im Terminal ausführen:"
+  es: "Aquí no se puede pedir la contraseña. Ejecuta esto en una terminal:"
+  fr: "Impossible de demander le mot de passe ici. Exécutez ceci dans un terminal :"
+  pt-BR: "Não é possível pedir a senha aqui. Execute isto em um terminal:"
+  ru: "Здесь нельзя запросить пароль. Выполните в терминале:"
+  zh-CN: "此处无法请求密码。请在终端中运行："
+service.failed:
+  en: "Did not work: %{error}"
+  de: "Hat nicht geklappt: %{error}"
+  es: "No funcionó: %{error}"
+  fr: "Échec : %{error}"
+  pt-BR: "Não funcionou: %{error}"
+  ru: "Не удалось: %{error}"
+  zh-CN: "未成功：%{error}"
+button.install:
+  en: Install
+  de: Installieren
+  es: "Instalar"
+  fr: "Installer"
+  pt-BR: "Instalar"
+  ru: "Установить"
+  zh-CN: "安装"
+button.uninstall:
+  en: Uninstall
+  de: Deinstallieren
+  es: "Desinstalar"
+  fr: "Désinstaller"
+  pt-BR: "Desinstalar"
+  ru: "Удалить"
+  zh-CN: "卸载"
+button.start:
+  en: Start
+  de: Starten
+  es: "Iniciar"
+  fr: "Démarrer"
+  pt-BR: "Iniciar"
+  ru: "Запустить"
+  zh-CN: "启动"
+button.stop:
+  en: Stop
+  de: Stoppen
+  es: "Detener"
+  fr: "Arrêter"
+  pt-BR: "Parar"
+  ru: "Остановить"
+  zh-CN: "停止"
+button.restart:
+  en: Restart
+  de: Neu starten
+  es: "Reiniciar"
+  fr: "Redémarrer"
+  pt-BR: "Reiniciar"
+  ru: "Перезапустить"
+  zh-CN: "重启"
+button.update:
+  en: Update
+  de: Aktualisieren
+  es: "Actualizar"
+  fr: "Mettre à jour"
+  pt-BR: "Atualizar"
+  ru: "Обновить"
+  zh-CN: "更新"
+button.copy:
+  en: Copy
+  de: Kopieren
+  es: "Copiar"
+  fr: "Copier"
+  pt-BR: "Copiar"
+  ru: "Копировать"
+  zh-CN: "复制"
+about.page:
+  en: About
+  de: Über
+  es: "Acerca de"
+  fr: "À propos"
+  pt-BR: "Sobre"
+  ru: "О программе"
+  zh-CN: "关于"
+about.tagline:
+  en: "Index 5 million files in 3 seconds. Find any of them before you finish typing."
+  de: "5 Millionen Dateien in 3 Sekunden indiziert. Jede davon gefunden, bevor du fertig getippt hast."
+  es: "Indexa 5 millones de archivos en 3 segundos. Encuentra cualquiera antes de terminar de escribir."
+  fr: "Indexe 5 millions de fichiers en 3 secondes. Trouvez n’importe lequel avant d’avoir fini de taper."
+  pt-BR: "Indexa 5 milhões de arquivos em 3 segundos. Encontre qualquer um antes de terminar de digitar."
+  ru: "5 миллионов файлов проиндексированы за 3 секунды. Любой из них найдётся раньше, чем вы допечатаете."
+  zh-CN: "3 秒索引 500 万个文件。还没打完字，就已找到。"
+about.source:
+  en: Source code on GitHub
+  de: Quellcode auf GitHub
+  es: "Código fuente en GitHub"
+  fr: "Code source sur GitHub"
+  pt-BR: "Código-fonte no GitHub"
+  ru: "Исходный код на GitHub"
+  zh-CN: "GitHub 上的源代码"
+about.issues:
+  en: Report a bug
+  de: Fehler melden
+  es: "Informar de un error"
+  fr: "Signaler un problème"
+  pt-BR: "Relatar um problema"
+  ru: "Сообщить об ошибке"
+  zh-CN: "报告问题"
+about.copy:
+  en: Copy info
+  de: Infos kopieren
+  es: "Copiar información"
+  fr: "Copier les infos"
+  pt-BR: "Copiar informações"
+  ru: "Копировать сведения"
+  zh-CN: "复制信息"
+about.license:
+  en: "License: MIT or Apache-2.0"
+  de: "Lizenz: MIT oder Apache-2.0"
+  es: "Licencia: MIT o Apache-2.0"
+  fr: "Licence : MIT ou Apache-2.0"
+  pt-BR: "Licença: MIT ou Apache-2.0"
+  ru: "Лицензия: MIT или Apache-2.0"
+  zh-CN: "许可证：MIT 或 Apache-2.0"
+about.thanks:
+  en: "Modelled on Everything by voidtools. User interface: GPUI and gpui-component."
+  de: "Vorbild: Everything von voidtools. Oberfläche: GPUI und gpui-component."
+  es: "Inspirado en Everything de voidtools. Interfaz: GPUI y gpui-component."
+  fr: "Inspiré d’Everything de voidtools. Interface : GPUI et gpui-component."
+  pt-BR: "Inspirado no Everything, da voidtools. Interface: GPUI e gpui-component."
+  ru: "По образцу Everything от voidtools. Интерфейс: GPUI и gpui-component."
+  zh-CN: "灵感来自 voidtools 的 Everything。界面：GPUI 和 gpui-component。"
+update.available:
+  en: "Anything %{version} is available."
+  de: "Anything %{version} ist verfügbar."
+  es: "Anything %{version} está disponible."
+  fr: "Anything %{version} est disponible."
+  pt-BR: "O Anything %{version} está disponível."
+  ru: "Доступна версия Anything %{version}."
+  zh-CN: "Anything %{version} 已发布。"
+update.install:
+  en: "Install"
+  de: "Installieren"
+  es: "Instalar"
+  fr: "Installer"
+  pt-BR: "Instalar"
+  ru: "Установить"
+  zh-CN: "安装"
+update.download:
+  en: "Download"
+  de: "Herunterladen"
+  es: "Descargar"
+  fr: "Télécharger"
+  pt-BR: "Baixar"
+  ru: "Скачать"
+  zh-CN: "下载"
+update.whats_new:
+  en: "What's new?"
+  de: "Was ist neu?"
+  es: "¿Qué hay de nuevo?"
+  fr: "Quoi de neuf ?"
+  pt-BR: "O que há de novo?"
+  ru: "Что нового?"
+  zh-CN: "新功能"
+update.skip:
+  en: "Skip this version"
+  de: "Diese Version überspringen"
+  es: "Omitir esta versión"
+  fr: "Ignorer cette version"
+  pt-BR: "Pular esta versão"
+  ru: "Пропустить эту версию"
+  zh-CN: "跳过此版本"
+update.installing:
+  en: "Installing the update…"
+  de: "Update wird installiert…"
+  es: "Instalando la actualización…"
+  fr: "Installation de la mise à jour…"
+  pt-BR: "Instalando a atualização…"
+  ru: "Установка обновления…"
+  zh-CN: "正在安装更新…"
+update.failed:
+  en: "The update did not work: %{error}"
+  de: "Das Update hat nicht geklappt: %{error}"
+  es: "La actualización no funcionó: %{error}"
+  fr: "La mise à jour a échoué : %{error}"
+  pt-BR: "A atualização não funcionou: %{error}"
+  ru: "Не удалось обновить: %{error}"
+  zh-CN: "更新失败：%{error}"
+update.status.title:
+  en: "Version check"
+  de: "Versionsprüfung"
+  es: "Comprobación de versión"
+  fr: "Vérification de version"
+  pt-BR: "Verificação de versão"
+  ru: "Проверка версии"
+  zh-CN: "版本检查"
+update.status.newer:
+  en: "Version %{version} is available."
+  de: "Version %{version} ist verfügbar."
+  es: "La versión %{version} está disponible."
+  fr: "La version %{version} est disponible."
+  pt-BR: "A versão %{version} está disponível."
+  ru: "Доступна версия %{version}."
+  zh-CN: "版本 %{version} 已发布。"
+update.status.current:
+  en: "Anything is up to date."
+  de: "Anything ist auf dem neuesten Stand."
+  es: "Anything está actualizado."
+  fr: "Anything est à jour."
+  pt-BR: "O Anything está atualizado."
+  ru: "Установлена последняя версия Anything."
+  zh-CN: "Anything 已是最新版本。"
+update.status.unknown:
+  en: "Could not check for updates."
+  de: "Die Prüfung auf Updates war nicht möglich."
+  es: "No se pudo comprobar si hay actualizaciones."
+  fr: "Impossible de vérifier les mises à jour."
+  pt-BR: "Não foi possível verificar se há atualizações."
+  ru: "Не удалось проверить обновления."
+  zh-CN: "无法检查更新。"
+update.status.off:
+  en: "Not checked: the check is switched off."
+  de: "Nicht geprüft: Die Prüfung ist ausgeschaltet."
+  es: "Sin comprobar: la comprobación está desactivada."
+  fr: "Non vérifié : la vérification est désactivée."
+  pt-BR: "Não verificado: a verificação está desativada."
+  ru: "Не проверено: проверка выключена."
+  zh-CN: "未检查：检查已关闭。"
+update.status.pending:
+  en: "Checks shortly after the start."
+  de: "Wird kurz nach dem Start geprüft."
+  es: "Se comprueba poco después del inicio."
+  fr: "Vérifié peu après le démarrage."
+  pt-BR: "É verificado pouco depois da inicialização."
+  ru: "Проверка выполняется вскоре после запуска."
+  zh-CN: "启动后不久进行检查。"
+settings.updates:
+  en: "Check for updates"
+  de: "Nach Updates suchen"
+  es: "Buscar actualizaciones"
+  fr: "Rechercher les mises à jour"
+  pt-BR: "Procurar atualizações"
+  ru: "Проверять обновления"
+  zh-CN: "检查更新"
+settings.updates.desc:
+  en: "Asks GitHub for a newer version 30 seconds after the start and every 6 hours. GitHub sees your IP address, nothing else."
+  de: "Fragt 30 Sekunden nach dem Start und alle 6 Stunden bei GitHub nach einer neueren Version. GitHub sieht dabei deine IP-Adresse, sonst nichts."
+  es: "Pregunta a GitHub por una versión más nueva 30 segundos después del inicio y cada 6 horas. GitHub ve tu dirección IP, nada más."
+  fr: "Demande à GitHub s’il existe une version plus récente 30 secondes après le démarrage, puis toutes les 6 heures. GitHub voit votre adresse IP, rien d’autre."
+  pt-BR: "Pergunta ao GitHub por uma versão mais nova 30 segundos após a inicialização e a cada 6 horas. O GitHub vê o seu endereço IP, nada mais."
+  ru: "Через 30 секунд после запуска и затем каждые 6 часов запрашивает у GitHub наличие новой версии. GitHub видит только ваш IP-адрес."
+  zh-CN: "启动 30 秒后以及之后每 6 小时向 GitHub 查询新版本。GitHub 只能看到你的 IP 地址。"
+about.install_app:
+  en: "Install for all users"
+  de: "Für alle Benutzer installieren"
+  es: "Instalar para todos los usuarios"
+  fr: "Installer pour tous les utilisateurs"
+  pt-BR: "Instalar para todos os usuários"
+  ru: "Установить для всех пользователей"
+  zh-CN: "为所有用户安装"
+about.install_app.desc:
+  en: "This Anything runs from its build folder. Installed for all users, it gets a menu entry and can update itself."
+  de: "Dieses Anything läuft aus seinem Build-Ordner. Für alle Benutzer installiert, bekommt es einen Menüeintrag und kann sich selbst aktualisieren."
+  es: "Este Anything se ejecuta desde su carpeta de compilación. Instalado para todos los usuarios, tiene una entrada en el menú y puede actualizarse solo."
+  fr: "Cet Anything s’exécute depuis son dossier de compilation. Installé pour tous les utilisateurs, il apparaît dans le menu et peut se mettre à jour lui-même."
+  pt-BR: "Este Anything é executado a partir da pasta de compilação. Instalado para todos os usuários, ganha uma entrada no menu e pode se atualizar sozinho."
+  ru: "Этот Anything запущен из папки сборки. После установки для всех пользователей он появится в меню и сможет обновляться сам."
+  zh-CN: "此 Anything 从构建文件夹运行。为所有用户安装后，它会出现在菜单中，并能自动更新。"
+tray.update:
+  en: "Update to %{version}…"
+  de: "Auf %{version} aktualisieren…"
+  es: "Actualizar a %{version}…"
+  fr: "Mettre à jour vers %{version}…"
+  pt-BR: "Atualizar para %{version}…"
+  ru: "Обновить до %{version}…"
+  zh-CN: "更新到 %{version}…"
+empty.title:
+  en: "No results for “%{query}”"
+  de: "Keine Treffer für „%{query}“"
+  es: "Sin resultados para «%{query}»"
+  fr: "Aucun résultat pour « %{query} »"
+  pt-BR: "Nenhum resultado para “%{query}”"
+  ru: "Ничего не найдено по запросу «%{query}»"
+  zh-CN: "没有找到“%{query}”"
+empty.hint:
+  en: "Try fewer or shorter words, or search like this:"
+  de: "Probier weniger oder kürzere Wörter, oder suche so:"
+  es: "Prueba con menos palabras o más cortas, o busca así:"
+  fr: "Essayez moins de mots ou des mots plus courts, ou cherchez ainsi :"
+  pt-BR: "Tente menos palavras ou palavras mais curtas, ou pesquise assim:"
+  ru: "Попробуйте меньше слов или более короткие слова либо ищите так:"
+  zh-CN: "试试更少或更短的词，或者这样搜索："
+empty.ex_contains:
+  en: "invoice"
+  de: "rechnung"
+  es: "factura"
+  fr: "facture"
+  pt-BR: "fatura"
+  ru: "счёт"
+  zh-CN: "发票"
+empty.ex_contains.desc:
+  en: "the word anywhere in a name"
+  de: "das Wort irgendwo im Namen"
+  es: "la palabra en cualquier parte del nombre"
+  fr: "le mot n’importe où dans le nom"
+  pt-BR: "a palavra em qualquer parte do nome"
+  ru: "слово в любом месте имени"
+  zh-CN: "名称中任意位置包含该词"
+empty.ex_pattern:
+  en: "*.pdf"
+  de: "*.pdf"
+  es: "*.pdf"
+  fr: "*.pdf"
+  pt-BR: "*.pdf"
+  ru: "*.pdf"
+  zh-CN: "*.pdf"
+empty.ex_pattern.desc:
+  en: "names ending in .pdf; * stands for anything"
+  de: "Namen, die auf .pdf enden; * steht für beliebige Zeichen"
+  es: "nombres que terminan en .pdf; * equivale a cualquier cosa"
+  fr: "noms se terminant par .pdf ; * remplace n’importe quoi"
+  pt-BR: "nomes que terminam em .pdf; * substitui qualquer coisa"
+  ru: "имена, оканчивающиеся на .pdf; * — любые символы"
+  zh-CN: "以 .pdf 结尾的名称；* 代表任意字符"
+empty.ex_and:
+  en: "invoice 2024"
+  de: "rechnung 2024"
+  es: "factura 2024"
+  fr: "facture 2024"
+  pt-BR: "fatura 2024"
+  ru: "счёт 2024"
+  zh-CN: "发票 2024"
+empty.ex_and.desc:
+  en: "names containing both words"
+  de: "Namen, die beide Wörter enthalten"
+  es: "nombres que contienen ambas palabras"
+  fr: "noms contenant les deux mots"
+  pt-BR: "nomes que contêm as duas palavras"
+  ru: "имена, содержащие оба слова"
+  zh-CN: "同时包含两个词的名称"
+menu.open_with:
+  en: "Open With…"
+  de: "Öffnen mit …"
+  es: "Abrir con…"
+  fr: "Ouvrir avec…"
+  pt-BR: "Abrir com…"
+  ru: "Открыть с помощью…"
+  zh-CN: "打开方式…"
+menu.copy:
+  en: "Copy"
+  de: "Kopieren"
+  es: "Copiar"
+  fr: "Copier"
+  pt-BR: "Copiar"
+  ru: "Копировать"
+  zh-CN: "复制"
+menu.copy_folder:
+  en: "Folder Path"
+  de: "Ordnerpfad"
+  es: "Ruta de la carpeta"
+  fr: "Chemin du dossier"
+  pt-BR: "Caminho da pasta"
+  ru: "Путь к папке"
+  zh-CN: "文件夹路径"
+menu.copy_file:
+  en: "File"
+  de: "Datei"
+  es: "Archivo"
+  fr: "Fichier"
+  pt-BR: "Arquivo"
+  ru: "Файл"
+  zh-CN: "文件"
+menu.trash:
+  en: "Move to Trash"
+  de: "In den Papierkorb"
+  es: "Mover a la papelera"
+  fr: "Mettre à la corbeille"
+  pt-BR: "Mover para a lixeira"
+  ru: "Переместить в корзину"
+  zh-CN: "移到回收站"
+menu.delete:
+  en: "Delete Permanently…"
+  de: "Endgültig löschen …"
+  es: "Eliminar definitivamente…"
+  fr: "Supprimer définitivement…"
+  pt-BR: "Excluir permanentemente…"
+  ru: "Удалить навсегда…"
+  zh-CN: "永久删除…"
+menu.properties:
+  en: "Properties"
+  de: "Eigenschaften"
+  es: "Propiedades"
+  fr: "Propriétés"
+  pt-BR: "Propriedades"
+  ru: "Свойства"
+  zh-CN: "属性"
+note.folder_copied:
+  en: "Folder path copied"
+  de: "Ordnerpfad kopiert"
+  es: "Ruta de la carpeta copiada"
+  fr: "Chemin du dossier copié"
+  pt-BR: "Caminho da pasta copiado"
+  ru: "Путь к папке скопирован"
+  zh-CN: "已复制文件夹路径"
+note.file_copied:
+  en: "File copied: paste it in a file manager"
+  de: "Datei kopiert: im Dateimanager einfügen"
+  es: "Archivo copiado: pégalo en un gestor de archivos"
+  fr: "Fichier copié : collez-le dans un gestionnaire de fichiers"
+  pt-BR: "Arquivo copiado: cole-o em um gerenciador de arquivos"
+  ru: "Файл скопирован: вставьте его в файловом менеджере"
+  zh-CN: "文件已复制：可在文件管理器中粘贴"
+note.trashed:
+  en: "“%{name}” moved to the trash"
+  de: "„%{name}“ in den Papierkorb verschoben"
+  es: "«%{name}» se movió a la papelera"
+  fr: "« %{name} » mis à la corbeille"
+  pt-BR: "“%{name}” movido para a lixeira"
+  ru: "«%{name}» перемещён в корзину"
+  zh-CN: "“%{name}”已移到回收站"
+note.failed:
+  en: "That did not work: %{error}"
+  de: "Das hat nicht geklappt: %{error}"
+  es: "No funcionó: %{error}"
+  fr: "Échec : %{error}"
+  pt-BR: "Não funcionou: %{error}"
+  ru: "Не удалось: %{error}"
+  zh-CN: "操作失败：%{error}"
+button.undo:
+  en: "Undo"
+  de: "Rückgängig"
+  es: "Deshacer"
+  fr: "Annuler"
+  pt-BR: "Desfazer"
+  ru: "Отменить"
+  zh-CN: "撤销"
+delete.file:
+  en: "Delete “%{name}” permanently?"
+  de: "„%{name}“ endgültig löschen?"
+  es: "¿Eliminar «%{name}» definitivamente?"
+  fr: "Supprimer définitivement « %{name} » ?"
+  pt-BR: "Excluir “%{name}” permanentemente?"
+  ru: "Удалить «%{name}» навсегда?"
+  zh-CN: "永久删除“%{name}”？"
+delete.folder:
+  en: "Delete the folder “%{name}” and everything in it permanently?"
+  de: "Den Ordner „%{name}“ mit allem Inhalt endgültig löschen?"
+  es: "¿Eliminar definitivamente la carpeta «%{name}» con todo su contenido?"
+  fr: "Supprimer définitivement le dossier « %{name} » et tout son contenu ?"
+  pt-BR: "Excluir permanentemente a pasta “%{name}” e todo o seu conteúdo?"
+  ru: "Удалить папку «%{name}» со всем содержимым навсегда?"
+  zh-CN: "永久删除文件夹“%{name}”及其全部内容？"
+delete.cannot_undo:
+  en: "This cannot be undone."
+  de: "Das lässt sich nicht rückgängig machen."
+  es: "No se puede deshacer."
+  fr: "Cette action est irréversible."
+  pt-BR: "Isso não pode ser desfeito."
+  ru: "Это действие нельзя отменить."
+  zh-CN: "此操作无法撤销。"
+delete.ok:
+  en: "Delete"
+  de: "Löschen"
+  es: "Eliminar"
+  fr: "Supprimer"
+  pt-BR: "Excluir"
+  ru: "Удалить"
+  zh-CN: "删除"
+settings.skip_caches:
+  en: "Leave out program caches"
+  de: "Cache-Ordner von Programmen ausnehmen"
+  es: "Omitir las cachés de los programas"
+  fr: "Ignorer les caches des programmes"
+  pt-BR: "Excluir os caches dos programas"
+  ru: "Не индексировать кэши программ"
+  zh-CN: "排除程序缓存"
+settings.skip_caches.desc:
+  en: "Folders programs rebuild by themselves and nobody looks for, often very busy: %{names}."
+  de: "Ordner, die Programme selbst neu anlegen und die kaum jemand durchsucht, oft sehr lebhaft: %{names}."
+  es: "Carpetas que los programas reconstruyen solos y que casi nadie busca, a menudo muy activas: %{names}."
+  fr: "Dossiers que les programmes reconstruisent eux-mêmes et que presque personne ne cherche, souvent très actifs : %{names}."
+  pt-BR: "Pastas que os programas recriam sozinhos e que quase ninguém procura, muitas vezes muito ativas: %{names}."
+  ru: "Папки, которые программы пересоздают сами и в которых почти никто не ищет; часто очень активные: %{names}."
+  zh-CN: "程序会自行重建、几乎无人搜索且经常频繁变化的文件夹：%{names}。"
+settings.skip_node_modules:
+  en: "Leave out node_modules"
+  de: "node_modules ausnehmen"
+  es: "Omitir node_modules"
+  fr: "Ignorer node_modules"
+  pt-BR: "Excluir node_modules"
+  ru: "Не индексировать node_modules"
+  zh-CN: "排除 node_modules"
+settings.skip_node_modules.desc:
+  en: "JavaScript dependencies, often hundreds of thousands of files per project."
+  de: "JavaScript-Abhängigkeiten, oft Hunderttausende Dateien pro Projekt."
+  es: "Dependencias de JavaScript, a menudo cientos de miles de archivos por proyecto."
+  fr: "Dépendances JavaScript, souvent des centaines de milliers de fichiers par projet."
+  pt-BR: "Dependências de JavaScript, muitas vezes centenas de milhares de arquivos por projeto."
+  ru: "Зависимости JavaScript, часто сотни тысяч файлов на проект."
+  zh-CN: "JavaScript 依赖项，每个项目常有数十万个文件。"
+settings.scan.folders:
+  en: "Folders"
+  de: "Ordner"
+  es: "Carpetas"
+  fr: "Dossiers"
+  pt-BR: "Pastas"
+  ru: "Папки"
+  zh-CN: "文件夹"
+settings.scan.left_out:
+  en: "Exclusions"
+  de: "Ausnahmen"
+  es: "Exclusiones"
+  fr: "Exclusions"
+  pt-BR: "Exclusões"
+  ru: "Исключения"
+  zh-CN: "排除项"
+settings.scan.index:
+  en: "Index"
+  de: "Index"
+  es: "Índice"
+  fr: "Index"
+  pt-BR: "Índice"
+  ru: "Индекс"
+  zh-CN: "索引"
+about.badge.current:
+  en: "up to date"
+  de: "aktuell"
+  es: "actualizado"
+  fr: "à jour"
+  pt-BR: "atualizado"
+  ru: "актуальная"
+  zh-CN: "已是最新"
+about.badge.update:
+  en: "update available"
+  de: "Update verfügbar"
+  es: "actualización disponible"
+  fr: "mise à jour disponible"
+  pt-BR: "atualização disponível"
+  ru: "есть обновление"
+  zh-CN: "有可用更新"
+about.badge.unknown:
+  en: "not checked"
+  de: "nicht geprüft"
+  es: "sin comprobar"
+  fr: "non vérifiée"
+  pt-BR: "não verificado"
+  ru: "не проверено"
+  zh-CN: "未检查"
+about.stats.files:
+  en: "%{count} files indexed"
+  de: "%{count} Dateien im Index"
+  es: "%{count} archivos indexados"
+  fr: "%{count} fichiers indexés"
+  pt-BR: "%{count} arquivos indexados"
+  ru: "Файлов в индексе: %{count}"
+  zh-CN: "已索引 %{count} 个文件"
+about.stats.service:
+  en: "Search service running"
+  de: "Suchdienst läuft"
+  es: "Servicio de búsqueda activo"
+  fr: "Service de recherche actif"
+  pt-BR: "Serviço de pesquisa ativo"
+  ru: "Служба поиска работает"
+  zh-CN: "搜索服务运行中"
+about.stats.own:
+  en: "Own index, no service"
+  de: "Eigener Index, ohne Dienst"
+  es: "Índice propio, sin servicio"
+  fr: "Index propre, sans service"
+  pt-BR: "Índice próprio, sem serviço"
+  ru: "Собственный индекс, без службы"
+  zh-CN: "自有索引，未使用服务"
+about.stats.languages:
+  en: "%{count} languages"
+  de: "%{count} Sprachen"
+  es: "%{count} idiomas"
+  fr: "%{count} langues"
+  pt-BR: "%{count} idiomas"
+  ru: "Языков: %{count}"
+  zh-CN: "%{count} 种语言"
+about.copied:
+  en: "Info copied: paste it into your bug report"
+  de: "Infos kopiert: in den Fehlerbericht einfügen"
+  es: "Información copiada: pégala en tu informe de error"
+  fr: "Infos copiées : collez-les dans votre rapport de bogue"
+  pt-BR: "Informações copiadas: cole no seu relatório de erro"
+  ru: "Сведения скопированы: вставьте их в отчёт об ошибке"
+  zh-CN: "信息已复制：请粘贴到错误报告中"

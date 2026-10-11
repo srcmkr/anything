@@ -1,0 +1,41 @@
+[Unit]
+Description=Anything file name index
+Documentation=https://github.com/srcmkr/anything
+After=local-fs.target
+
+[Service]
+ExecStart=@SERVICE@
+Restart=on-failure
+# Indexing is background work.
+Nice=10
+IOSchedulingClass=idle
+
+# /run/anything (socket) and /var/lib/anything (snapshot, owner only).
+RuntimeDirectory=anything
+RuntimeDirectoryMode=0755
+StateDirectory=anything
+StateDirectoryMode=0700
+
+# Read every folder, watch file systems, nothing else.
+CapabilityBoundingSet=CAP_DAC_READ_SEARCH CAP_SYS_ADMIN
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=yes
+PrivateNetwork=yes
+RestrictAddressFamilies=AF_UNIX
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=multi-user.target

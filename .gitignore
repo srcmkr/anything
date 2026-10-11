@@ -1,0 +1,8 @@
+/target
+# Generated test data: demo files, their thumbnails, the database
+/dev/thumbnails/
+/dev/demo/
+/dev/db/
+
+# Packages built by packaging/build-packages.sh
+/dist/
