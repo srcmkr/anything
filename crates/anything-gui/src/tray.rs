@@ -99,6 +99,21 @@ impl ksni::Tray for AnythingTray {
         ]);
         items
     }
+
+    fn watcher_offline(&self, reason: ksni::OfflineReason) -> bool {
+        // Keep waiting: at login the tray often starts after us.
+        match reason {
+            ksni::OfflineReason::Error(err) => {
+                eprintln!("anything: tray not available yet, waiting for it: {err}")
+            }
+            _ => eprintln!("anything: tray went away, waiting for it to return"),
+        }
+        true
+    }
+
+    fn watcher_online(&self) {
+        eprintln!("anything: tray available, icon registered");
+    }
 }
 
 /// Keeps the tray icon alive and lets it pick up a new language.
@@ -117,9 +132,10 @@ impl TrayHandle {
     }
 }
 
-/// Starts the tray icon.
+/// Starts the tray icon. If the desktop's tray is not up yet, as at login
+/// with autostart, the icon appears as soon as it is.
 pub fn spawn(events: async_channel::Sender<TrayEvent>) -> Option<TrayHandle> {
-    match (AnythingTray { events, update: None }).spawn() {
+    match (AnythingTray { events, update: None }).assume_sni_available(true).spawn() {
         Ok(handle) => Some(TrayHandle(handle)),
         Err(err) => {
             eprintln!("anything: no tray icon available: {err}");
