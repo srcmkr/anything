@@ -1,6 +1,9 @@
 //! How Anything is installed, and where its parts are then.
 
-use std::path::{Path, PathBuf};
+use std::{
+    path::{Path, PathBuf},
+    sync::OnceLock,
+};
 
 /// Where one installation keeps its programs and the service's unit.
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
@@ -41,8 +44,15 @@ pub enum Install {
 }
 
 impl Install {
-    /// How the running program is installed.
+    /// How the running program is installed. Found out on the first call and
+    /// kept: once an update has replaced the program, its path reads
+    /// "/usr/bin/anything (deleted)" and no longer says where it came from.
     pub fn current() -> Self {
+        static CURRENT: OnceLock<Install> = OnceLock::new();
+        CURRENT.get_or_init(Self::detect).clone()
+    }
+
+    fn detect() -> Self {
         if let Some(image) = std::env::var_os("APPIMAGE").map(PathBuf::from).filter(|p| p.is_file()) {
             return Install::AppImage(image);
         }

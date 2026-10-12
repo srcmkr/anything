@@ -68,6 +68,9 @@ fn main() {
     let bench = Bench::enabled();
     let show_at_start = bench || std::env::args().any(|arg| arg == "--show");
 
+    // Before an update can replace this program and blur where it lives.
+    anything_update::layout::Install::current();
+
     let (events, received) = async_channel::unbounded();
     if !bench && !instance::claim(events.clone()) {
         eprintln!("anything: already running; showing its window");
