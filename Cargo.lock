@@ -183,7 +183,7 @@ checksum = "940b3a0ca603d1eade50a4846a2afffd5ef57a9feac2c0e2ec2e14f9ead76000"
 
 [[package]]
 name = "any"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anything-core",
  "anything-proto",
@@ -197,7 +197,7 @@ checksum = "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470"
 
 [[package]]
 name = "anything-core"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "hashbrown 0.16.1",
  "libc",
@@ -207,7 +207,7 @@ dependencies = [
 
 [[package]]
 name = "anything-gui"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anything-core",
  "anything-proto",
@@ -235,11 +235,11 @@ dependencies = [
 
 [[package]]
 name = "anything-proto"
-version = "0.1.1"
+version = "0.1.2"
 
 [[package]]
 name = "anything-update"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "flate2",
  "minisign",
@@ -251,7 +251,7 @@ dependencies = [
 
 [[package]]
 name = "anythingd"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anything-core",
  "anything-proto",
