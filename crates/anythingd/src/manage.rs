@@ -143,15 +143,19 @@ fn install() -> io::Result<()> {
 
 /// Stops the service and removes everything `install` put in place, and the
 /// snapshot: it holds every user's file names. The settings file stays.
+///
+/// With the Debian package installed as well, its rules (same path as ours)
+/// and the snapshot belong to the package's service, which takes over.
 fn uninstall() -> io::Result<()> {
     require_root()?;
     // Not installed (any more) is fine.
     let _ = Command::new("systemctl").args(["disable", "--now", SERVICE]).status();
+    let package = Path::new(layout::DEB.service).exists();
     // Installed for all users, the app still needs this program and its
     // rules for updates.
     let app = Path::new(APP).exists();
     for file in [UNIT, POLICY] {
-        if app && file == POLICY {
+        if (app || package) && file == POLICY {
             continue;
         }
         match fs::remove_file(file) {
@@ -161,7 +165,7 @@ fn uninstall() -> io::Result<()> {
     }
     let program_dir = Path::new(PROGRAM).parent().unwrap();
     for dir in [program_dir, Path::new(STATE)] {
-        if app && dir == program_dir {
+        if (app && dir == program_dir) || (package && dir == Path::new(STATE)) {
             continue;
         }
         match fs::remove_dir_all(dir) {
@@ -169,7 +173,12 @@ fn uninstall() -> io::Result<()> {
             _ => {}
         }
     }
-    systemctl(&["daemon-reload"])
+    systemctl(&["daemon-reload"])?;
+    if package {
+        // Disabling ours above disabled the package's too: same name.
+        systemctl(&["enable", "--now", SERVICE])?;
+    }
+    Ok(())
 }
 
 /// Installs the three programs lying next to this one, as they come out of
