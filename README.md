@@ -97,6 +97,33 @@ before they are installed: [docs/security.md](docs/security.md).
 Anything speaks English, German, Spanish, French, Portuguese (Brazil), Russian
 and Chinese (simplified).
 
+## How this project is built
+
+This project is written with AI, and I say so openly. It started as a problem
+I had myself; most of its code is produced by AI coding agents that I direct,
+drawing on 35 years of building software.
+
+This is **augmented coding**, not vibe coding.
+[Vibe coding](https://en.wikipedia.org/wiki/Vibe_coding), as Andrej Karpathy
+coined the term, means accepting whatever the model writes without looking at
+the code. [Augmented coding](https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes),
+as Kent Beck describes it, means directing the AI towards tested, maintainable
+code and owning the result. The difference is not who types; it is who
+decides and how the result is checked.
+
+- **I decide.** Scope, architecture and trade-offs are mine: I make them or
+  sign them off. The AI proposes and implements; it does not get the last
+  word.
+- **Tests define "works".** Automated tests run on every push to the main
+  branch and on every pull request. New features are tried in the real
+  application before they are released, and the bugs found that way are
+  fixed.
+- **Nothing is hidden.** The code, the tests and the history are all here,
+  for anyone to read and judge.
+
+It is 2026. Writing every line by hand is no longer what makes software good;
+taking responsibility for every decision is.
+
 ## Contributing
 
 Bug reports, ideas, translations and pull requests are welcome. See
